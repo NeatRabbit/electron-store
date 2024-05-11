@@ -1,5 +1,5 @@
 import {expectType, expectAssignable} from 'tsd';
-import Store, {Schema} from './index.js';
+import Store, {Schema} from '.';
 
 new Store({defaults: {}}); // eslint-disable-line no-new
 new Store({name: 'myConfiguration'}); // eslint-disable-line no-new
